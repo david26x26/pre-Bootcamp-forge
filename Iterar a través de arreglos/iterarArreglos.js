@@ -16,3 +16,21 @@ for (let i = 0; i < arr3.length; i++) {
     console.log(arr3[i]); //=> 6,12,14
   }
 }
+
+//BONUS NINJA:
+
+var arr3 = [6, 2, 12, 14, -24, 5, 0];
+for (let i = 0; i < arr3.length; i++) {
+  if (arr3[i] < 5) {
+    arr3[i] = "No hay dados";
+  }
+} /*
+
+6
+"No hay dados"
+12
+14
+"No hay dados"
+5
+"No hay dados"
+*/
